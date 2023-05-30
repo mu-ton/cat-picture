@@ -5,5 +5,10 @@ export default function Home() {
     return images[0];
   };
 
-  return <div>猫画像予定地</div>;
+  return (
+    <div>
+      猫画像予定地
+      <h1>test</h1>
+    </div>
+  );
 }
