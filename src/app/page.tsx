@@ -21,6 +21,11 @@ export default function Home() {
     });
   }, []);
 
+  type Todos = {
+    id: number;
+    text: string;
+  };
+
   return (
     <div>
       <button onClick={handleClick}>Click!</button>
